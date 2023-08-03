@@ -31,7 +31,9 @@ Assume you can use any libraries in Java needed.
 Similar problem: https://leetcode.com/problems/valid-parentheses/
 
 #3
-
+For Step 2, you could have used a Stack to implement the solution.
+How would you implement a stack if you could not use any of the built-in Java libraries?
+Stack.java
 
  */
 public class BalancedBrackets {
