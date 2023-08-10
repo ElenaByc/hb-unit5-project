@@ -15,6 +15,9 @@ The average case time complexity of the Insertion sort is O(N^2)
 The time complexity of the best case is O(N) - already sorted
 Space Complexity of Insertion Sort
 The auxiliary space complexity of Insertion Sort is O(1)
+
+More challenging problem - Insertion Sort List
+https://leetcode.com/problems/insertion-sort-list/
  */
 
 import java.lang.reflect.Array;
