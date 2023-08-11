@@ -59,7 +59,7 @@ public class BalancedBrackets {
         System.out.println(balancedBrackets("{<()>[{{}}]()<>}")); //true
     }
 
-    private static boolean balancedParentheses(String str) {
+    public static boolean balancedParentheses(String str) {
         int openCounter = 0;
         int closeCounter = 0;
         for (int i = 0; i < str.length(); i++) {
@@ -75,7 +75,7 @@ public class BalancedBrackets {
         return closeCounter - openCounter == 0;
     }
 
-    private static boolean balancedBrackets(String str) {
+    public static boolean balancedBrackets(String str) {
         HashMap<Character, Character> hm = new HashMap<>();
         hm.put(')', '(');
         hm.put('}', '{');
