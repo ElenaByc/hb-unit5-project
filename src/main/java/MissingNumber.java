@@ -61,7 +61,7 @@ public class MissingNumber {
 
     // Time complexity: O(n)
     // Space complexity: O(n) - set
-    private static int missingNumber1(int[] numbers, int maxNum) {
+    public static int missingNumber1(int[] numbers, int maxNum) {
         Set<Integer> numbersSet = new HashSet<>();
 
         for (int n : numbers) {
@@ -79,7 +79,7 @@ public class MissingNumber {
 
     // Time complexity: O(nlogn) - sorting
     // Space complexity: O(1)
-    private static int missingNumber2(int[] numbers, int maxNum) {
+    public static int missingNumber2(int[] numbers, int maxNum) {
         Arrays.sort(numbers);
 
         // numbers.length could be less than maxNum
@@ -98,7 +98,7 @@ public class MissingNumber {
 
     // Time complexity: O(n)
     // Space complexity: O(1)
-    private static int missingNumber3(int[] numbers, int maxNum) {
+    public static int missingNumber3(int[] numbers, int maxNum) {
         int expectedSum = (maxNum + 1) * maxNum / 2;
         int actualSum = 0;
 
