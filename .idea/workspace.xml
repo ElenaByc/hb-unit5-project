@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b431664-89eb-49bc-a3a6-ff80e7b63498" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BalancedBracketsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BalancedBracketsParameterizedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BalancedBrackets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,16 @@
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BalancedBracketsTest">
+  <component name="RunManager" selected="JUnit.BalancedBracketsParameterizedTest">
+    <configuration name="BalancedBracketsParameterizedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-maven-proj-5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BalancedBracketsParameterizedTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BalancedBracketsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-maven-proj-5" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,6 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BalancedBracketsParameterizedTest" />
         <item itemvalue="JUnit.BalancedBracketsTest" />
         <item itemvalue="JUnit.MissingNumberTest" />
       </list>
